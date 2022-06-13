@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap");
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    margin: 0%;
+}
+
+.head {
+    font-weight: bolder;
+}
+
+.photo1 {
+    text-align: center;
+}
+
+.right {
+    background-color: antiquewhite;
+    height: 100vh;
+    align-self: flex-start;
+    width: 40%;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.logo {
+    height: auto;
+    // margin-left: 200px;
+    // margin-top: 20px;
+}
+
+.arrow {
+    padding: -100px;
+    margin-top: 0px;
+}
+
+h3 {
+    margin-top: 150px;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 155px;
+    font-size: -webkit-xxx-large;
+}
+
+.login {
+    margin-top: 50px;
+    height: 40px;
+    width: 350px;
+    margin-left: 200px;
+}
+
+.usern {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.pass {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.but {
+    margin-top: 110px;
+    color: white;
+    background: black;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 200px;
+    // width: 98vw;
+    // margin: 3px 0px 5px 0px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+}
+
+p {
+    margin-left: 200px;
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 426px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        // margin-top: 50px;
+
+
+        .arrow {
+            display: flex;
+            justify-content: space-evenly;
+
+            p {
+                font-size: small;
+                margin: 0px;
+            }
+        }
+
+        .head {
+            margin: 10px;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        .login {
+            height: 40px;
+            width: 100vw;
+            margin: 0%;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            width: 98vw;
+            margin-left: 0%;
+            border-radius: 10px;
+            border: 1px;
+            border-style: solid;
+            // background-color: whitesmoke;
+        }
+
+        .right {
+            background-color: antiquewhite;
+            align-self: flex-start;
+            text-align: center;
+            margin: auto;
+            width: 100%;
+            padding: 0%;
+            height: 240px;
+            text-align-last: start;
+
+        }
+
+
+
+    }
+
+}

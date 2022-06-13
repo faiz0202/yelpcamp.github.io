@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+p {
+    color: black;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 200px;
+
+}
+
+ul {
+    color: #585857;
+    font-size: 20px;
+    margin-left: 200px;
+    line-height: 3em;
+    list-style: none;
+
+}
+
+.pic .lap {
+    width: 50vw;
+    height: 100vh;
+    float: right;
+}
+
+h1 {
+    color: black;
+    font-size: 60px;
+    margin-top: 170px;
+    margin-left: 200px;
+}
+
+.content .navbar-2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.but {
+    color: #FFFFFF;
+    size: 30px;
+    background: black;
+    margin-top: 15px;
+    margin-left: 200px;
+    font-size: 15px;
+    height: 50px;
+    width: 300px;
+    border: solid;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h4 {
+
+    margin-top: 50px;
+    margin-left: 195px;
+}
+
+.image {
+    margin-left: 180px; 
+}
+
+// @media only screen and (max-width: 768px) {
+//     .mob {
+//       display: block;
+//     }
+//     .pic .lap {
+//       display: none;
+//     }
+//     .nav2 {
+//       display: none;
+      
+//     }
+// }
+
+
+@media only screen and (min-width: 768px) {
+    .mob {
+      display: none;
+    }
+    .lap {
+      display: block;
+    }
+    .nav1 {
+      display: none;
+   
+    }
+}
+
+@media only screen and (max-width:768px ){
+    .mob{
+        display: block;
+    }
+    .lap{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+}
